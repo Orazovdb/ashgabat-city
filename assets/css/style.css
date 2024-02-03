@@ -1,0 +1,187 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+html,
+body {
+  min-width: 100%;
+}
+
+body {
+  line-height: 1;
+  font-size: 0.875rem;
+  font-family: 'source';
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body._lock {
+  overflow: hidden;
+  -ms-touch-action: none;
+  touch-action: none;
+  height: 100vh;
+}
+input,
+button,
+textarea {
+  font-family: 'source';
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: 'pointer' !important;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a {
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  a {
+    cursor: none !important;
+  }
+  button {
+    cursor: none !important;
+  }
+  svg {
+    cursor: none !important;
+  }
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+body ::-moz-selection {
+  color: #fff;
+}
+
+body ::selection {
+  background-color: blue;
+  color: #fff;
+}
+
+[class*='_container'] {
+  max-width: 1240px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+@font-face {
+  font-family: 'source';
+  font-display: swap;
+  src: url('../fonts/SourceCodePro-ExtraLight.ttf');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source';
+  font-display: swap;
+  src: url('../fonts/SourceCodePro-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source';
+  font-display: swap;
+  src: url('../fonts/SourceCodePro-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source';
+  font-display: swap;
+  src: url('../fonts/SourceCodePro-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source';
+  font-display: swap;
+  src: url('../fonts/SourceCodePro-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source';
+  font-display: swap;
+  src: url('../fonts/SourceCodePro-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source';
+  font-display: swap;
+  src: url('../fonts/SourceCodePro-ExtraBold.ttf');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source';
+  font-display: swap;
+  src: url('../fonts/SourceCodePro-Black.ttf');
+  font-weight: 900;
+  font-style: normal;
+}

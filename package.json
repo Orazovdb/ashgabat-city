@@ -1,0 +1,34 @@
+{
+  "name": "ashgabat-city",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@leandromatos/nuxt-cookie": "0.0.1",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/i18n": "^7.3.1",
+    "@nuxtjs/yandex-metrika": "^1.4.0",
+    "aos": "^2.3.4",
+    "cookie-universal-nuxt": "^2.2.2",
+    "nuxt": "^2.15.8",
+    "swiper": "^5.4.5",
+    "vue": "^2.7.10",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@types/swiper": "^6.0.0",
+    "eslint": "^8.40.0",
+    "eslint-plugin-vue": "^9.12.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^10.1.1"
+  }
+}
